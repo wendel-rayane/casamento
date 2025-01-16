@@ -1,0 +1,101 @@
+.header-bg {
+  background-image: url("/imagem-fundo-principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header .detalhe-principal {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.header .detalhe-principal h1 {
+  font-family: 'WindSong', serif;
+  font-size: 5rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.header .detalhe-principal p {
+  font-family: 'WindSong', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.botao-menu {
+  display: none;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 700px) {
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .header .detalhe-principal {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .header .detalhe-principal h1 {
+    font-size: 2rem;
+  }
+
+  .header .detalhe-principal p {
+    font-size: 2rem;
+  }
+
+  .botao-menu {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+  }
+
+  .botao-menu::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    box-shadow: 0px 4px 0px black, 0px -4px 0px black;
+  }
+
+  .menu ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 20vh;
+    text-align: center;
+
+  } 
+
+  .menu ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .menu ul.ativo {
+    display: block;
+  }
+}
