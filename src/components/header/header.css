@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 2rem 10px;
   position: sticky;
   top: 0px;
 }
@@ -26,7 +26,7 @@
 .header .detalhe-principal h1 {
   font-family: 'WindSong', serif;
   font-size: 5rem;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   text-align: center;
 }
@@ -34,7 +34,7 @@
 .header .detalhe-principal p {
   font-family: 'WindSong', serif;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   text-align: center;
 }
@@ -46,6 +46,9 @@
 }
 
 @media (max-width: 700px) {
+  .menu {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
   .menu ul {
     flex-direction: column;
   }
@@ -53,14 +56,17 @@
   .header .detalhe-principal {
     padding-top: 10rem;
     padding-bottom: 10rem;
+    background-color: rgba(0, 0, 0, 0.4);
   }
 
   .header .detalhe-principal h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: white;
   }
 
   .header .detalhe-principal p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: white;
   }
 
   .botao-menu {

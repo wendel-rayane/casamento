@@ -17,7 +17,7 @@ function Header() {
   return (
     <>
       <header className="header-bg">
-        <div className="header container">
+        <div className="header">
           <div className="menu">
             {/* <span>W & R</span> */}
             <img src={logo} alt="Logo" width={150} height={100} />

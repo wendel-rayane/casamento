@@ -4,8 +4,8 @@ function Footer() {
   return (
     <>
       <footer className="container">
-        Mateus 19:6: “Assim, eles já não são dois, mas sim uma só carne.
-        Portanto, o que Deus uniu, ninguém separa.”
+        “Assim, eles já não são dois, mas sim uma só carne. Portanto, o que Deus
+        uniu, ninguém separa.”, Mateus 19:6
       </footer>
     </>
   );
