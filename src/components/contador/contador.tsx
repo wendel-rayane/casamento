@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './contador.css';
 
 const Contador = () => {
-  const dataInicial = new Date('2020-12-01T00:00:00').getTime();
+  const dataInicial = new Date('2024-07-26T00:00:00').getTime();
   const [tempoStamp, setTempoStamp] = useState<number>(
     Date.now() - dataInicial,
   );

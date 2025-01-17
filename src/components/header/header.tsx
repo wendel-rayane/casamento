@@ -40,7 +40,7 @@ function Header() {
           </div>
           <div className="detalhe-principal">
             <h1>Wendel e Rayane</h1>
-            <p>16.01.2025</p>
+            <p>26.07.2024</p>
           </div>
         </div>
       </header>
