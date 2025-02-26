@@ -7,7 +7,7 @@ import qrcode from '/src/assets/qr-code.jpeg';
 
 function Main() {
   const chaveToCopy =
-    '00020126580014BR.GOV.BCB.PIX01361af825c9-b826-47d4-ae2d-62f3546d9db05204000053039865406200.005802BR5924Wendel da Silva de Souza6009SAO PAULO621405101QFBqRuP1V6304D605';
+    '00020126580014BR.GOV.BCB.PIX01361af825c9-b826-47d4-ae2d-62f3546d9db05204000053039865802BR5924Wendel da Silva de Souza6009SAO PAULO62140510u8ntm3Z90h6304B100';
   const buttonRef = useRef<HTMLButtonElement | null>(null);
   useEffect(() => {
     if (buttonRef.current) {
